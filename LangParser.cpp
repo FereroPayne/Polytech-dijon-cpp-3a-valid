@@ -12,8 +12,10 @@ std::ostream& operator=<<(std::ostream& os, const & l) {
     return os;
 
   std::string input="";  std::getline(std::cin, input);  
-
+    std::string currentLang= "en_us";
+LangParser lp = LangParser();
 
 
 }
+
 
