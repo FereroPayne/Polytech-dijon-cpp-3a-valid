@@ -9,7 +9,13 @@ int main()
 	std::string	polynome(const std::string & a, const std::string & b, const std::string & c); {
 		return (a*x) ^ 2 + b * c + c;
 	}
-    std::cout << "";
+	int	det(const std::string & a, const std::string & b, const std::string & c); {
+		return d = (b ^ 2 - 4 * a * c);
+		int x = -b / 2a;
+		return x;
+	}
+	
+
 
 }
 
@@ -23,3 +29,4 @@ int main()
 //   4. Utilisez la fenêtre Liste d'erreurs pour voir les erreurs.
 //   5. Accédez à Projet > Ajouter un nouvel élément pour créer des fichiers de code, ou à Projet > Ajouter un élément existant pour ajouter des fichiers de code existants au projet.
 //   6. Pour rouvrir ce projet plus tard, accédez à Fichier > Ouvrir > Projet et sélectionnez le fichier .sln.
+
